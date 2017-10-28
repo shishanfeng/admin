@@ -23,7 +23,7 @@ public class ManageApplicationTest {
     public void testRole() {
         String url = "http://localhost:" + port + "/test";
         Object o = restTemplate.getForObject(url, Object.class);
-        System.out.println(o.toString());
+        System.out.println("ok");
 //        Assert.assertNotNull(result);
 //        Assert.assertThat(result.getUsername(), Matchers.containsString("admin"));
     }
